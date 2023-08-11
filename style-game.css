@@ -1,0 +1,119 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: grid;
+    width: 100%;
+    height: 100vh;
+    background-color: antiquewhite;
+    grid-template-columns: repeat(8 ,1fr);
+    grid-template-rows: repeat(10 ,1fr);
+}
+
+.player-one {
+    display: grid;
+    grid-area: 3/3/5/4;
+    gap: 25px;
+}
+
+.player-one:hover {
+    cursor: pointer;
+}
+
+.player-two {
+    display: grid;
+    grid-area: 3/6/5/7;
+    gap: 25px
+}
+
+.player-two:hover {
+    cursor: pointer;
+}
+
+.value-one {
+    display: grid;
+    grid-area: 6/3/6/3;
+    align-items: center;
+    font-size: 25px;
+}
+
+.value-one:hover {
+    cursor: pointer;
+}
+
+.value-two {
+    display: grid;
+    grid-area: 6/6/6/6;
+    align-items: center;
+    font-size: 25px;
+}
+
+.value-two:hover {
+    cursor: pointer;
+}
+
+.button-roll-one {
+    display: grid;
+    grid-area: 7/3/7/3;
+    font-size: 25px;
+    align-items: center;
+    width: 65%;
+    height: 60%;
+    border-radius: 10px;
+}
+
+.button-roll-one:hover {
+    cursor: pointer;
+}
+
+.button-roll-two {
+    display: grid;
+    grid-area: 7/6/7/6;
+    font-size: 25px;
+    align-items: center;
+    width: 65%;
+    height: 60%;
+    border-radius: 10px;
+}
+
+.button-roll-two:hover {
+    cursor: pointer;
+}
+
+.dice-one {
+    display: grid;
+    font-size: 50px;
+    justify-content: center;
+    width: 75%;
+}
+
+.dice-two {
+    display: grid;
+    font-size: 50px;
+    justify-content: center;
+    width: 75%;
+}
+
+.dice-tree {
+    display: grid;
+    font-size: 50px;
+    justify-content: center;
+    width: 75%;
+}
+
+.dice-four {
+    display: grid;
+    font-size: 50px;
+    justify-content: center;
+    width: 75%;
+}
+
+.winner {
+    display: grid;
+    grid-area: 9/4/9/4;
+    justify-content: center;
+    font-size: 25px;
+}
